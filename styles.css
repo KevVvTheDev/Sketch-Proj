@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: center;
+    border: 1px solid red;
+    width: 100%; /* Make the container responsive */
+    height: auto; 
+   
+}
+
+.square{
+    border : 1px solid black;
+}
