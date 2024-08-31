@@ -1,3 +1,9 @@
+.intro{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,21 +11,41 @@
 }
 
 body{
-    background-color: pink;
-}
+    background-color: pink; 
+    }
 
 .container {
-    margin-top: 50px;
+    margin: 50px 350px;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    justify-content: center;
-    border: 1px solid red;
-    width: 100%; /* Make the container responsive */
-    height: auto; 
-   
+   background-color: white;
+    width: 800px; 
+    height: 800px;  
 }
 
 .square{
     border : 1px solid black;
+}
+
+.btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 30%;
+    border: none;
+    font-size: 90%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: powderblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn:hover {background-color: #1e5cb8}
+
+.btn:active {
+    background-color: #b6c5b6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.dark{
+    background-color: rgb(37, 36, 36);
 }
