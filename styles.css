@@ -2,6 +2,13 @@
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+    ;
+}
+
+.intro h1{
+    margin-right: auto;
+    margin-left: 20px;
+
 }
 
 *{
@@ -15,10 +22,10 @@ body{
     }
 
 .container {
-    margin: 50px 350px;
+    margin: 50px 350px; 
     display: flex;
     flex-wrap: wrap;
-   background-color: white;
+    background-color: white;
     width: 800px; 
     height: 800px;  
 }
@@ -34,14 +41,17 @@ body{
     border: none;
     font-size: 90%;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    background-color: powderblue;
+    background-color: rgb(255, 255, 255);
     font-weight: bolder;
     cursor: pointer;
 }
-.btn:hover {background-color: #1e5cb8}
+.btn:hover {
+    background-color: #1e1f20;
+    color: white;
+}
 
 .btn:active {
-    background-color: #b6c5b6;
+    background-color: #352929;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
